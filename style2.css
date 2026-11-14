@@ -1,0 +1,30 @@
+.navbar{
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: auto;
+}
+.logo{
+  grid-column: 2;
+  justify-self: center;
+  max-height: 500px;
+}
+.text{
+  grid-column: 3;
+  justify-self: end;
+  color: blue;
+  padding: 30px;
+  text-align: right;
+  font-weight:900;
+}
+.text1{
+  display: grid;
+  text-align: center;
+  color: red;
+  font-weight: 900;
+  padding: 40px;
+}
+.main{
+  display: flex;
+  
+}
