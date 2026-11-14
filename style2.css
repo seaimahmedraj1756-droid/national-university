@@ -28,3 +28,11 @@
   display: flex;
   
 }
+@media (max-width: 768px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;        /* লোগো এবং লেখার মাঝখানে ফাঁকা জায়গা রাখবে */
+    padding: 10px;
+  }
+}
