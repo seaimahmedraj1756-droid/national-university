@@ -46,3 +46,14 @@
         grid-column: 2;
     }
 }
+@media screen and (max-width: 576px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main > div {
+        width: 100%;
+    }
+}
